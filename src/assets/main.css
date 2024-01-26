@@ -1,0 +1,46 @@
+@import './base.css';
+
+body,
+html {
+  height: 70%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+#todo-app ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#todo-app li {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+#todo-app li:hover {
+  background-color: #eaeaea;
+}
+
+.button-delete {
+  cursor: pointer;
+  color: #ff4d4f;
+  font-size: 1.2em;
+}
+
+.button-delete:hover {
+  color: #ff7875;
+}
